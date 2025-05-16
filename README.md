@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Heimdall - Smart Lock System with Civic Auth
 
-## Getting Started
+**Project Heimdall** is a modern access control system that uses blockchain wallet authentication to provide keyless access to doors. This version integrates **Civic Auth** for embedded wallet functionality, combining web technologies with cryptographic security to create an advanced access control solution.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔒 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Forget traditional keys and key cards. Project Heimdall uses **Solana blockchain signatures** for authentication through the embedded **Civic Auth wallet**, providing a secure, convenient way to control access to physical spaces without requiring users to install additional wallet extensions.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### System Highlights:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Embedded Wallet Authentication**: Authenticate directly in the app with Civic Auth integration  
+- **Mobile Authentication**: Scan a QR code with your phone to unlock doors  
+- **Cryptographic Security**: Uses Solana wallet signatures for secure authentication  
+- **Admin Management**: Easy-to-use admin panel to manage authorized users and access logs  
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Civic Auth Integration**: Built-in wallet functionality eliminates the need for separate wallet installations  
+- **Seamless User Experience**: Sign transactions directly within the application  
+- **QR Code Authentication**: Generate a unique QR code for each unlock request  
+- **Blockchain Security**: Leverages Solana's blockchain for cryptographic signatures  
+- **User Management**: Add, remove, and rename authorized users  
+- **Access Logs**: View detailed access history  
+- **Adaptive System**: Smart polling system balances responsiveness with resource efficiency  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> Project Heimdall represents the next generation of smart lock systems, combining cutting-edge blockchain technology with practical usability for real-world access control.
