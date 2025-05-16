@@ -30,4 +30,3 @@ Forget traditional keys and key cards. Project Heimdall uses **Solana blockchain
 
 ---
 
-> Project Heimdall represents the next generation of smart lock systems, combining cutting-edge blockchain technology with practical usability for real-world access control.
