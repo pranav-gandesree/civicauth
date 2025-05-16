@@ -39,7 +39,7 @@ export default function QRCodeGenerator({ onRequestCreated }) {
   
   return (
     <div className="my-4">
-      <p className="mb-2">Generate a QR code for your lock:</p>
+      <p className="mb-2 text-black">Generate a QR code for your lock:</p>
       <button
         onClick={generateQRCode}
         disabled={loading}
